@@ -3,7 +3,7 @@ import { Slide, Heading } from "spectacle";
 
 const GoodTesting = () => (
   <Slide>
-    <Heading>GoodTesting</Heading>
+    <Heading>Gute Tests</Heading>
   </Slide>
 );
 

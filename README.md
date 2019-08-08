@@ -15,9 +15,3 @@ Danke für eure Aufmerksamkeit!
 
 - `cd cy`
 - `yarn cy:open`
-
----
-
-> With great power comes great responsibility
-
-Spider-Man

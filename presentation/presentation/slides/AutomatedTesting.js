@@ -3,7 +3,7 @@ import { Slide, Heading } from "spectacle";
 
 const AutomatedTesting = () => (
   <Slide>
-    <Heading>AutomatedTesting</Heading>
+    <Heading>Automatisiertes Testen</Heading>
   </Slide>
 );
 
