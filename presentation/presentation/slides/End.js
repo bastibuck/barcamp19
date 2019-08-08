@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Heading, Image, List, ListItem } from "spectacle";
+import { Slide, Heading, List, ListItem, Link } from "spectacle";
 
 const images = {
   weluse: require("../../assets/logo-white.svg")
@@ -8,7 +8,16 @@ const images = {
 const End = () => {
   return (
     <Slide bgColor="secondary" transition={["fade"]}>
-      <Heading margin="12vh 0 30vh">Danke</Heading>
+      <Heading margin="12vh 0 0">Danke</Heading>
+      <Link
+        style={{ marginBottom: "20vh", display: "inline-block" }}
+        href="https://github.com/bastibuck/barcamp19"
+        textColor="primary"
+        textSize={22}
+        target="_blank"
+      >
+        https://github.com/bastibuck/barcamp19
+      </Link>
 
       <List textColor="primary" textAlign="right">
         <ListItem bulletStyle=" ">Basti Buck</ListItem>
