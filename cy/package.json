@@ -1,0 +1,16 @@
+{
+  "name": "barcamp19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "Basti Buck",
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/cypress": "^4.0.4",
+    "cypress": "^3.4.0"
+  }
+}
