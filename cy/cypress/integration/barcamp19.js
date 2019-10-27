@@ -9,20 +9,20 @@ describe("BarCamp 2019", () => {
 
     slowMode(slowed);
 
-    cy.getAllByText(/sponsoren/i)
+    cy.findAllByText(/sponsoren/i)
       .last()
       .scrollIntoView({ duration: slowed ? 1200 : 0 });
 
     slowMode(slowed);
 
-    cy.getAllByText(/unterstützer/i)
+    cy.findAllByText(/unterstützer/i)
       .last()
       .scrollIntoView({ duration: slowed ? 1200 : 0 });
 
     slowMode(slowed);
 
-    cy.getByText(/über das barcamp/i).click();
-    cy.getByText(/barcamp-regeln/i).scrollIntoView({
+    cy.findByText(/über das barcamp/i).click();
+    cy.findByText(/barcamp-regeln/i).scrollIntoView({
       duration: slowed ? 1200 : 0,
       offset: { top: -100 }
     });
